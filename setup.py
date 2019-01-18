@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="sentry-dingtalk",
+    name="sentry-dingtalk-notification",
     version='1.0.5',
     author='panda',
     author_email='itwujunze@gmail.com',
