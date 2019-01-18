@@ -6,8 +6,8 @@ sentry dingtalk notification plugin
 
 ### Install the package via ``pip``::
 
-    ``` pip install sentry-dingtalk ```
+    ```pip install sentry-dingtalk```
 
 ### Run migrations after installation is complete
 
-    ``` sentry upgrade ```
+    ```sentry upgrade```
