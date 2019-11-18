@@ -5,7 +5,7 @@ import json
 import requests
 from sentry.plugins.bases.notify import NotificationPlugin
 
-from sentry_dingtalk.src.sentry_dingtalk.forms import DingTalkOptionsForm
+from sentry_dingtalk.forms import DingTalkOptionsForm
 
 DingTalk_API = "https://oapi.dingtalk.com/robot/send?access_token={token}"
 
