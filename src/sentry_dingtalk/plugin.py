@@ -5,7 +5,7 @@ import json
 import requests
 from sentry.plugins.bases.notify import NotificationPlugin
 
-import sentry_DingTalk
+import sentry_dingtalk
 from src.sentry_dingtalk.forms import DingTalkOptionsForm
 
 DingTalk_API = "https://oapi.dingtalk.com/robot/send?access_token={token}"
@@ -17,7 +17,7 @@ class DingTalkPlugin(NotificationPlugin):
     """
     author = 'panda'
     author_url = 'https://github.com/py-bar/sentry-dingtalk'
-    version = sentry_DingTalk.VERSION
+    version = sentry_dingtalk.VERSION
     description = 'Send error counts to DingTalk.'
     resource_links = [
         ('Source', 'https://github.com/py-bar/sentry-dingtalk'),
